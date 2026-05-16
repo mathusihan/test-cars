@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
-  { href: "#vehicles", label: "Vehicles" },
+  { href: "#vessels", label: "Fleet" },
   { href: "#features", label: "Features" },
   { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
@@ -45,7 +45,7 @@ export function Header() {
               Sign In
             </Button>
             <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              Book a Test Drive
+              Book a Charter
             </Button>
           </div>
 
@@ -78,7 +78,7 @@ export function Header() {
                   Sign In
                 </Button>
                 <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
-                  Book a Test Drive
+                  Book a Charter
                 </Button>
               </div>
             </div>

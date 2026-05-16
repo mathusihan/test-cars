@@ -5,25 +5,25 @@ const features = [
     icon: Shield,
     title: "Uncompromising Safety",
     description:
-      "Advanced driver assistance systems and a reinforced carbon fiber monocoque ensure maximum protection without sacrificing performance.",
+      "Advanced navigation systems and a reinforced composite hull ensure maximum protection at sea without sacrificing performance.",
   },
   {
     icon: Gauge,
-    title: "Track-Ready Performance",
+    title: "Ocean-Ready Performance",
     description:
-      "Every vehicle is engineered for the track, with aerodynamics optimized through countless hours of wind tunnel testing.",
+      "Every vessel is engineered for open water, with hydrodynamics optimised through countless hours of tank testing.",
   },
   {
     icon: Wrench,
     title: "Bespoke Craftsmanship",
     description:
-      "Hand-assembled by master technicians, each car represents hundreds of hours of meticulous attention to detail.",
+      "Hand-finished by master shipwrights, each yacht represents hundreds of hours of meticulous attention to detail.",
   },
   {
     icon: Clock,
     title: "24/7 Concierge Service",
     description:
-      "Our dedicated team provides round-the-clock support, from maintenance scheduling to exclusive event access.",
+      "Our dedicated crew provides round-the-clock support, from berthing arrangements to exclusive charter event access.",
   },
 ];
 
@@ -37,10 +37,10 @@ export function FeaturesSection() {
             WHY CHOOSE APEX
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 text-balance">
-            Engineered for Excellence
+            Built for the Open Sea
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Every detail is designed with purpose. From the roar of the engine to the feel of the leather, excellence is non-negotiable.
+            Every detail is designed with purpose. From the sound of the bow cutting through waves to the feel of teak underfoot, excellence is non-negotiable.
           </p>
         </div>
 

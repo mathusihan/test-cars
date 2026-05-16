@@ -2,10 +2,10 @@ import Link from "next/link";
 import { Instagram, Twitter, Youtube, Linkedin } from "lucide-react";
 
 const footerLinks = {
-  vehicles: [
-    { label: "Grand Tourers", href: "#" },
-    { label: "Supercars", href: "#" },
-    { label: "Electric", href: "#" },
+  fleet: [
+    { label: "Motor Yachts", href: "#" },
+    { label: "Superyachts", href: "#" },
+    { label: "Electric Yachts", href: "#" },
     { label: "Limited Editions", href: "#" },
   ],
   company: [
@@ -16,8 +16,8 @@ const footerLinks = {
   ],
   support: [
     { label: "Owner Services", href: "#" },
-    { label: "Find a Dealer", href: "#" },
-    { label: "Book Test Drive", href: "#" },
+    { label: "Find a Marina", href: "#" },
+    { label: "Book a Charter", href: "#" },
     { label: "FAQs", href: "#" },
   ],
 };
@@ -42,7 +42,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed mb-6">
-              Crafting the world&apos;s most exhilarating driving experiences since 1987.
+              Crafting the world&apos;s most exhilarating nautical experiences since 1987.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -58,11 +58,11 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Vehicles */}
+          {/* Fleet */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Vehicles</h4>
+            <h4 className="font-semibold text-foreground mb-4">Fleet</h4>
             <ul className="space-y-3">
-              {footerLinks.vehicles.map((link) => (
+              {footerLinks.fleet.map((link) => (
                 <li key={link.label}>
                   <Link
                     href={link.href}
@@ -113,7 +113,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} APEX Motors. All rights reserved.
+            © {new Date().getFullYear()} APEX Yachts. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link
