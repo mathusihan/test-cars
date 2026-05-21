@@ -5,25 +5,25 @@ const features = [
     icon: Shield,
     title: "Uncompromising Safety",
     description:
-      "Advanced driver assistance systems and a reinforced carbon fiber monocoque ensure maximum protection without sacrificing performance.",
+      "Advanced navigation systems and reinforced hull construction ensure maximum protection without sacrificing performance on the water.",
   },
   {
     icon: Gauge,
-    title: "Track-Ready Performance",
+    title: "Ocean-Ready Performance",
     description:
-      "Every vehicle is engineered for the track, with aerodynamics optimized through countless hours of wind tunnel testing.",
+      "Every yacht is engineered for open waters, with hull designs optimized through countless hours of hydrodynamic testing.",
   },
   {
     icon: Wrench,
     title: "Bespoke Craftsmanship",
     description:
-      "Hand-assembled by master technicians, each car represents hundreds of hours of meticulous attention to detail.",
+      "Hand-assembled by master shipwrights, each yacht represents thousands of hours of meticulous attention to detail.",
   },
   {
     icon: Clock,
     title: "24/7 Concierge Service",
     description:
-      "Our dedicated team provides round-the-clock support, from maintenance scheduling to exclusive event access.",
+      "Our dedicated team provides round-the-clock support, from maintenance scheduling to exclusive marina access.",
   },
 ];
 
@@ -40,7 +40,7 @@ export function FeaturesSection() {
             Engineered for Excellence
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Every detail is designed with purpose. From the roar of the engine to the feel of the leather, excellence is non-negotiable.
+            Every detail is designed with purpose. From the power of the engines to the feel of the teak deck, excellence is non-negotiable.
           </p>
         </div>
 
