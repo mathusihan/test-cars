@@ -4,43 +4,43 @@ import { useState } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Gauge, Zap, Car } from "lucide-react";
+import { ArrowRight, Gauge, Zap, Ship } from "lucide-react";
 
 const vehicles = [
   {
     id: 1,
-    name: "Shadow GT",
-    category: "Grand Tourer",
-    image: "/images/car-1.jpg",
-    price: "$185,000",
+    name: "Shadow 65",
+    category: "Sport Cruiser",
+    image: "/images/yacht-1.jpg",
+    price: "$1,850,000",
     specs: {
-      power: "580 hp",
-      speed: "0-60 in 3.5s",
-      engine: "V8 Twin-Turbo",
+      power: "1,200 hp",
+      speed: "40 knots",
+      length: "65 ft",
     },
   },
   {
     id: 2,
-    name: "Inferno RS",
-    category: "Supercar",
-    image: "/images/car-2.jpg",
-    price: "$295,000",
+    name: "Inferno 85",
+    category: "Motor Yacht",
+    image: "/images/yacht-2.jpg",
+    price: "$4,500,000",
     specs: {
-      power: "720 hp",
-      speed: "0-60 in 2.9s",
-      engine: "V10 Naturally Aspirated",
+      power: "2,400 hp",
+      speed: "35 knots",
+      length: "85 ft",
     },
   },
   {
     id: 3,
-    name: "Volt Apex",
-    category: "Hybrid Sports",
-    image: "/images/car-3.jpg",
-    price: "$165,000",
+    name: "Volt Explorer",
+    category: "Explorer Yacht",
+    image: "/images/yacht-3.jpg",
+    price: "$6,200,000",
     specs: {
-      power: "420 hp",
-      speed: "0-60 in 4.2s",
-      engine: "Hybrid Powertrain",
+      power: "1,800 hp",
+      speed: "28 knots",
+      length: "110 ft",
     },
   },
 ];
@@ -57,9 +57,9 @@ export function VehiclesSection() {
             <p className="text-primary font-medium tracking-widest text-sm mb-3">
               01 / 06
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground text-balance">
-              Featured Vehicles
-            </h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground text-balance">
+            Featured Yachts
+          </h2>
           </div>
           <Button variant="ghost" className="text-primary hover:text-primary/80 gap-2 self-start md:self-auto">
             View All Models
@@ -115,8 +115,8 @@ export function VehiclesSection() {
                     <p className="text-xs text-muted-foreground">{vehicle.specs.speed}</p>
                   </div>
                   <div className="flex flex-col items-center text-center">
-                    <Car size={18} className="text-primary mb-1" />
-                    <p className="text-xs text-muted-foreground truncate w-full">{vehicle.specs.engine}</p>
+                    <Ship size={18} className="text-primary mb-1" />
+                    <p className="text-xs text-muted-foreground truncate w-full">{vehicle.specs.length}</p>
                   </div>
                 </div>
               </CardContent>

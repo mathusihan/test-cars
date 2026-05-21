@@ -45,7 +45,7 @@ export function Header() {
               Sign In
             </Button>
             <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              Book a Test Drive
+              Book a Sea Trial
             </Button>
           </div>
 
@@ -78,7 +78,7 @@ export function Header() {
                   Sign In
                 </Button>
                 <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
-                  Book a Test Drive
+                  Book a Sea Trial
                 </Button>
               </div>
             </div>

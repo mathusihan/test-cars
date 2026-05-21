@@ -10,8 +10,8 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-car.jpg"
-          alt="Luxury sports car"
+          src="/images/hero-yacht.jpg"
+          alt="Luxury yacht"
           fill
           className="object-cover object-center"
           priority
@@ -31,7 +31,7 @@ export function HeroSection() {
             <span className="text-primary">Perfection.</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-lg">
-            Experience the pinnacle of automotive engineering. Where raw power meets refined luxury.
+            Experience the pinnacle of marine engineering. Where elegance meets the open sea.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 gap-2">
@@ -55,20 +55,20 @@ export function HeroSection() {
         <div className="container mx-auto px-4 lg:px-8 py-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <p className="text-2xl md:text-3xl font-bold text-primary">3.2s</p>
-              <p className="text-sm text-muted-foreground">0-60 mph</p>
+              <p className="text-2xl md:text-3xl font-bold text-primary">85ft</p>
+              <p className="text-sm text-muted-foreground">Length</p>
             </div>
             <div className="text-center">
-              <p className="text-2xl md:text-3xl font-bold text-foreground">720<span className="text-primary">hp</span></p>
+              <p className="text-2xl md:text-3xl font-bold text-foreground">1,200<span className="text-primary">hp</span></p>
               <p className="text-sm text-muted-foreground">Max Power</p>
             </div>
             <div className="text-center">
-              <p className="text-2xl md:text-3xl font-bold text-foreground">205<span className="text-primary">mph</span></p>
+              <p className="text-2xl md:text-3xl font-bold text-foreground">45<span className="text-primary">kn</span></p>
               <p className="text-sm text-muted-foreground">Top Speed</p>
             </div>
             <div className="text-center">
-              <p className="text-2xl md:text-3xl font-bold text-foreground">4.0<span className="text-primary">L</span></p>
-              <p className="text-sm text-muted-foreground">V8 Engine</p>
+              <p className="text-2xl md:text-3xl font-bold text-foreground">12<span className="text-primary"></span></p>
+              <p className="text-sm text-muted-foreground">Guests</p>
             </div>
           </div>
         </div>
