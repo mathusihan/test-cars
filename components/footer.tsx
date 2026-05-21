@@ -3,10 +3,10 @@ import { Instagram, Twitter, Youtube, Linkedin } from "lucide-react";
 
 const footerLinks = {
   vehicles: [
-    { label: "Sport Cruisers", href: "#" },
-    { label: "Motor Yachts", href: "#" },
-    { label: "Explorer Yachts", href: "#" },
-    { label: "Limited Editions", href: "#" },
+    { label: "Light Jets", href: "#" },
+    { label: "Midsize Jets", href: "#" },
+    { label: "Large Cabin", href: "#" },
+    { label: "Ultra Long Range", href: "#" },
   ],
   company: [
     { label: "About Us", href: "#" },
@@ -16,8 +16,8 @@ const footerLinks = {
   ],
   support: [
     { label: "Owner Services", href: "#" },
-    { label: "Find a Marina", href: "#" },
-    { label: "Book Sea Trial", href: "#" },
+    { label: "Find an FBO", href: "#" },
+    { label: "Book Demo Flight", href: "#" },
     { label: "FAQs", href: "#" },
   ],
 };
@@ -42,7 +42,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed mb-6">
-              Crafting the world&apos;s most exhilarating yachting experiences since 1987.
+              Crafting the world&apos;s most exhilarating aviation experiences since 1987.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -60,7 +60,7 @@ export function Footer() {
 
           {/* Vehicles */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Yachts</h4>
+            <h4 className="font-semibold text-foreground mb-4">Aircraft</h4>
             <ul className="space-y-3">
               {footerLinks.vehicles.map((link) => (
                 <li key={link.label}>
@@ -113,7 +113,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} APEX Yachts. All rights reserved.
+            © {new Date().getFullYear()} APEX Aviation. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link
