@@ -5,25 +5,25 @@ const features = [
     icon: Shield,
     title: "Uncompromising Safety",
     description:
-      "Advanced navigation systems and reinforced hull construction ensure maximum protection without sacrificing performance on the water.",
+      "Advanced avionics and triple-redundant flight systems ensure maximum protection without sacrificing performance in the air.",
   },
   {
     icon: Gauge,
-    title: "Ocean-Ready Performance",
+    title: "Sky-Ready Performance",
     description:
-      "Every yacht is engineered for open waters, with hull designs optimized through countless hours of hydrodynamic testing.",
+      "Every aircraft is engineered for the skies, with aerodynamics optimized through countless hours of wind tunnel testing.",
   },
   {
     icon: Wrench,
     title: "Bespoke Craftsmanship",
     description:
-      "Hand-assembled by master shipwrights, each yacht represents thousands of hours of meticulous attention to detail.",
+      "Hand-assembled by master aviation technicians, each aircraft represents thousands of hours of meticulous attention to detail.",
   },
   {
     icon: Clock,
     title: "24/7 Concierge Service",
     description:
-      "Our dedicated team provides round-the-clock support, from maintenance scheduling to exclusive marina access.",
+      "Our dedicated team provides round-the-clock support, from maintenance scheduling to exclusive FBO access worldwide.",
   },
 ];
 
@@ -40,7 +40,7 @@ export function FeaturesSection() {
             Engineered for Excellence
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Every detail is designed with purpose. From the power of the engines to the feel of the teak deck, excellence is non-negotiable.
+            Every detail is designed with purpose. From the thrust of the engines to the feel of the leather cabin, excellence is non-negotiable.
           </p>
         </div>
 

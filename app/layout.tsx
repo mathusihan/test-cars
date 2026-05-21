@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'APEX Yachts | Premium Luxury Yachts',
-  description: 'Discover the world of luxury yachts. Experience elegance, performance, and unparalleled craftsmanship on the water.',
+  title: 'APEX Aviation | Premium Private Aircraft',
+  description: 'Discover the world of luxury private aviation. Experience elegance, performance, and unparalleled craftsmanship in the skies.',
   generator: 'v0.app',
   icons: {
     icon: [

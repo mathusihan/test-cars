@@ -4,43 +4,43 @@ import { useState } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Gauge, Zap, Ship } from "lucide-react";
+import { ArrowRight, Gauge, Zap, Plane } from "lucide-react";
 
 const vehicles = [
   {
     id: 1,
-    name: "Shadow 65",
-    category: "Sport Cruiser",
-    image: "/images/yacht-1.jpg",
-    price: "$1,850,000",
+    name: "Shadow Light",
+    category: "Light Jet",
+    image: "/images/aircraft-1.jpg",
+    price: "$12,500,000",
     specs: {
-      power: "1,200 hp",
-      speed: "40 knots",
-      length: "65 ft",
+      power: "7,000 lbf",
+      speed: "Mach 0.80",
+      range: "2,100 nm",
     },
   },
   {
     id: 2,
-    name: "Inferno 85",
-    category: "Motor Yacht",
-    image: "/images/yacht-2.jpg",
-    price: "$4,500,000",
+    name: "Inferno Ultra",
+    category: "Ultra Long Range",
+    image: "/images/aircraft-2.jpg",
+    price: "$65,000,000",
     specs: {
-      power: "2,400 hp",
-      speed: "35 knots",
-      length: "85 ft",
+      power: "15,400 lbf",
+      speed: "Mach 0.90",
+      range: "7,500 nm",
     },
   },
   {
     id: 3,
-    name: "Volt Explorer",
-    category: "Explorer Yacht",
-    image: "/images/yacht-3.jpg",
-    price: "$6,200,000",
+    name: "Volt Business",
+    category: "Large Cabin",
+    image: "/images/aircraft-3.jpg",
+    price: "$45,000,000",
     specs: {
-      power: "1,800 hp",
-      speed: "28 knots",
-      length: "110 ft",
+      power: "13,500 lbf",
+      speed: "Mach 0.85",
+      range: "5,950 nm",
     },
   },
 ];
@@ -58,7 +58,7 @@ export function VehiclesSection() {
               01 / 06
             </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground text-balance">
-            Featured Yachts
+            Featured Aircraft
           </h2>
           </div>
           <Button variant="ghost" className="text-primary hover:text-primary/80 gap-2 self-start md:self-auto">
@@ -115,8 +115,8 @@ export function VehiclesSection() {
                     <p className="text-xs text-muted-foreground">{vehicle.specs.speed}</p>
                   </div>
                   <div className="flex flex-col items-center text-center">
-                    <Ship size={18} className="text-primary mb-1" />
-                    <p className="text-xs text-muted-foreground truncate w-full">{vehicle.specs.length}</p>
+                    <Plane size={18} className="text-primary mb-1" />
+                    <p className="text-xs text-muted-foreground truncate w-full">{vehicle.specs.range}</p>
                   </div>
                 </div>
               </CardContent>
